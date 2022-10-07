@@ -1,0 +1,379 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color: #fff;
+}
+
+.hero{
+    height: 95vh;
+    background-color: #12121C;
+    color: white;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+footer{
+    padding: 60px;
+    background-color: #ffff;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1000px){
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-self: center;
+    }
+    footer{
+        text-align: center;
+    }
+}
+footer i{
+    color:  #071833;
+}
+footer i:hover{
+    color:  coral;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-image{
+    width: 100px;
+    margin:  20px 30px;
+    background-color: transparent;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 22px;
+    
+}
+ul.show{
+    display: block;
+}
+li{
+    text-decoration: none;
+    padding: 2px;
+    /* font-weight: 600;
+    font-size: 22px; */
+}
+li a:hover{
+    color: coral;
+    font-weight: 600;
+    font-size: 22px;
+}
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    margin-left: 80px;
+    padding-bottom: 100px;
+}
+h1{
+    margin: 0;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    margin: 0;
+    color:  #071833;
+}
+
+p{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 100;
+}
+.subtext{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.project-link{
+    text-decoration: none;
+    color: coral;
+}
+.project-link:hover{
+    border-bottom: 1px solid coral;
+    padding: 5px 10px;
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.support-text{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color:  #071833;
+}
+footer h2{
+    margin: 0;
+    color:  #071833;
+}
+.project-heading-text{
+    margin-bottom: 20px;
+}
+.project-text{
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.button{
+    width: 180px;
+    height: 48px;
+    background-color: coral;
+    border-radius: 30px;
+    color:  white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #ef744b;
+}
+.button:active{
+    background-color: #a9a9aa;
+    color: #808080;
+}
+.social-icons{
+    padding-bottom: 100px;
+}
+.icons{
+    margin: 30px;
+    color: coral;
+}
+.sub-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+.sub-container-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 40px;
+    background-color: #F5F5F5;
+}
+@media only screen and (max-width: 1000px) {
+    .profile-pic{
+        width: 200px;
+    }
+}
+.profile-pic{
+    width: 220px;
+    border-radius: 150px;
+}
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+.projects-container{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 1000px){
+    .projects-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.projects-card{
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 20px rgb(187, 187, 187);
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.project-img{
+    width: 100%;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.humburger{
+   display: none;
+}
+.humburger:focus{
+    outline: 0;
+}
+@media only screen and (max-width: 1000px){
+    .humburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 30px;
+        align-self: flex-end;
+    } 
+    ul{
+        display: none;
+        background-color: #2b2d3a;
+        margin: 0;
+        padding-bottom: 20px;
+        border-top: 2px solid coral;
+    }
+    ul.show{
+        display: block;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2d3a;
+        overflow: hidden;
+    }
+    .logo-image{
+        display: none;
+    }
+}
+.form{
+    width: 50vw;
+    text-align: left;
+    /* overflow: hidden; */
+}
+.form-control{
+    margin: 15px 0;
+}
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ccc;
+}
+.inputs{
+    display: block;
+    width: 95%;
+    font-family: inherit;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    background-color: #F8F8F8;
+    color: #555;
+}
+input:focus{
+    outline: 0;
+}
+::placeholder {
+    color: #555;
+    opacity: 1; 
+  }
+textarea:focus{
+    outline: 0;
+}
+.form-btn{
+    width: 100px;
+    border: none;
+    color: #fff;
+    background-color: coral;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.form-btn:hover{
+    background-color: #ef744b;
+}
+.contact-icons{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    box-shadow: 5px 5px 20px #ebebeb;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+    padding: 40px 60px;
+}
+.contact-info{
+    width: 50vw;
+    padding: 40px 60px;
+    box-shadow: 5px 10px 20px #e2e2e2;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1000px){
+    .icons{
+        margin: 12px;
+        display: block;
+    }
+}
+.icons{
+    margin: 15px;
+}
+.icons i{
+    margin-bottom: 8px;
+}
+.icon-text{
+    font-size: 16px;
+    color: #555;
+}
+.phone{
+    width: 300px;
+}
+.display-block{
+    display: flex;
+    flex-direction: column;
+}
+.btn-view{
+    width: 300px;
+    border: 2px solid coral;
+    font-family: inherit;
+    padding: 12px 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 18px;
+    color: coral;
+    border-radius: 40px;
+}
+.btn-view:hover{
+    background-color: coral;
+    color: #fff;
+}
+.display-block i{
+    margin: 6px;
+}
+
+.projects-header-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 0 80px;
+    margin-bottom: 20px;
+}
+.header-link{
+    width: 300px;
+    margin: 5px;
+}
+.projects-header-link h3 a{
+    color:  #555;
+}
+.change{
+    background-color: green;
+    color: red;
+}
