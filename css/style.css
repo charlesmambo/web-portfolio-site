@@ -89,6 +89,8 @@ h2{
 h3{
     margin: 0;
     color:  #071833;
+    font-size: 22px;
+
 }
 
 p{
@@ -195,7 +197,7 @@ footer h2{
     }
 }
 .projects-card{
-    width: 400px;
+    width: 260px;
     height: 300px;
     box-shadow: 5px 5px 20px rgb(187, 187, 187);
     margin: 10px;
@@ -246,7 +248,7 @@ hr{
     }
 }
 .form{
-    width: 50vw;
+    width: 48vw;
     text-align: left;
     /* overflow: hidden; */
 }
@@ -359,21 +361,13 @@ textarea:focus{
 }
 
 .projects-header-link{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-content: center;
     padding: 0 80px;
     margin-bottom: 20px;
-}
-.header-link{
-    width: 300px;
-    margin: 5px;
 }
 .projects-header-link h3 a{
     color:  #555;
 }
-.change{
-    background-color: green;
-    color: red;
+
+.javascript-projects{
+    margin-top: 40px;
 }
