@@ -166,6 +166,18 @@ footer h2{
     justify-content: space-around;
     padding: 60px;
 }
+@media screen and (max-width: 650px){
+    .sub-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        padding: 60px;
+    } 
+}
+.information{
+    width: 65vw;
+    padding-right: 20px;
+}
 .sub-container-alternative{
     display: flex;
     flex-direction: column;
@@ -181,6 +193,7 @@ footer h2{
 .profile-pic{
     width: 220px;
     border-radius: 150px;
+    margin-bottom: 10px;
 }
 .headshot-container{
     display: flex;
@@ -197,8 +210,8 @@ footer h2{
     }
 }
 .projects-card{
-    width: 260px;
-    height: 300px;
+    width: 270px;
+    height: 310px;
     box-shadow: 5px 5px 20px rgb(187, 187, 187);
     margin: 10px;
     overflow: hidden;
@@ -206,6 +219,10 @@ footer h2{
 }
 .project-img{
     width: 100%;
+    height: auto;
+}
+.project-card-heading{
+    font-size: 16px;
 }
 hr{
     margin-left: 20px;
@@ -250,7 +267,6 @@ hr{
 .form{
     width: 48vw;
     text-align: left;
-    /* overflow: hidden; */
 }
 .form-control{
     margin: 15px 0;
