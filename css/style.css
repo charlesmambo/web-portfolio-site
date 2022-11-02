@@ -11,6 +11,8 @@ section{
     color: white;
     font-size: 30px;
     box-sizing: border-box;
+    /* background: url("/images/giphy-3.gif");
+    background-size: cover; */
 }
 footer{
     padding: 60px;
